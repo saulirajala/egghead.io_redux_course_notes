@@ -1,3 +1,10 @@
+# TL;DR, 
+1. The entire state of the application will be represented by one JavaScript object.
+2. The state is read only, and can only be modified by dispatching actions.
+3. To describe state mutations you have to write a reducer-function
+    * takes the 1) previous state of the app and the 2) action being dispatched
+    * returns the next state of the app
+
 # 01. The Single Immutable State Tree
 [Video Link](https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree?series=getting-started-with-redux)
 
