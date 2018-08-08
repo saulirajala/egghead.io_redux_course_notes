@@ -1,4 +1,4 @@
-# TL;DR, 
+# TL;DR, principles
 1. The entire state of the application will be represented by one JavaScript object.
 2. The state is read only, and can only be modified by dispatching actions.
 3. To describe state mutations you have to write a reducer-function
