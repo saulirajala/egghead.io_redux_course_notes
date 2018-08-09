@@ -1,3 +1,7 @@
+# TL;DR the job of all container components
+- connect a presentational component to the Redux store
+- specify the data and behavior that it needs
+
 # 23. Extracting Container Components (VisibleTodoList, AddTodo)
 [Video Link](https://egghead.io/lessons/javascript-redux-extracting-container-components-visibletodolist-addtodo)
 
