@@ -1,3 +1,9 @@
+# TL;DR Connect
+`AddTodo = connect()(AddTodo)` This means that:
+- AddTodo -component doesn't subscribe to the store and thus doesn't know the state of redux
+- AddTodo -component gets `dispatch` function, because of Redux: If `connect()` sees that the second argument is `null`, you'll get `dispatch` injected as a prop.
+
+
 # 28. Generating Containers with `connect()` from React Redux (AddTodo)
 [Video Link](https://egghead.io/lessons/javascript-redux-generating-containers-with-connect-from-react-redux-addtodo)
 
